@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+.wrapper{
+    background-image: url('../images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#options{
+    display: none;
+}
+.show{
+    display: block !important;
+}

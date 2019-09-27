@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lishort</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -17,7 +19,10 @@
     <nav class="teal darken-3">
         <div class="container">
             <div class="nav-wrapper">
-                <a href="/" class="brand-logo">LiShort</a>
+                <a href="/" class="brand-logo">
+                    <img width="50" src="{% static 'images/favicon.png' %}" alt="Logo">
+                    LiShort
+                </a>
             </div>
         </div>
     </nav>
